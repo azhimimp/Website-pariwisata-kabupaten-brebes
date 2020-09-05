@@ -1,0 +1,328 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#header {
+	background:	white;
+	box-shadow: 0 0 35px 1px rgba(0,0,0, 0.2);
+}
+.logo {
+	width: 250px;
+    padding: 1px 36;
+    padding-top: 1px;
+}
+header {
+	text-align: center;
+    border-bottom: 3px solid gold;
+    border-top: 2px solid white;
+}
+/*-----------navbar-----------*/
+
+nav {
+	
+	overflow: hidden;
+     
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 480px;
+	margin: 0 450px;
+    
+    
+}
+
+nav ul li a {
+	width: 130px;
+	float: left;
+	display: block;
+	text-decoration: none;
+	background:#3333FF;
+	color: snow;
+	padding: 10px;
+	text-align: center;
+	transition: background .2s ease;
+ 
+} 
+
+nav ul li a:hover {
+	background:#3333CC;
+    color:	palegoldenrod;
+    
+    
+}
+.card{
+    background-size: 10px 10px;
+}
+
+
+
+
+
+
+
+
+/*=========== Start about_history_area css =============*/
+.about_content {
+  padding-right: 60px;
+    padding-top: 50px;
+}
+
+.about_content p {
+  padding: 18px 0px 30px;
+}
+
+.img-fluid{
+    padding-top: 50px}
+.button_hover{
+    color: blue;
+    padding-top: 1px;
+}
+
+/*=========== End about_history_area css =============*/
+
+
+/*----------------------------------------------------*/
+.section_title h2{
+text-align: center;
+    font: sans-serif;
+    font-weight: 500;
+    color: indigo;
+}
+.section_title{
+    padding-top: 70px;
+    padding-bottom: 8px;
+}
+
+.accomodation_item {
+    padding-top: 50px;
+  margin-bottom: 30px;
+}
+
+.accomodation_item .hotel_img {
+  position: relative;
+  margin-bottom: 10px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.accomodation_item .hotel_img img {
+  -webkit-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+}
+
+.accomodation_item .hotel_img .theme_btn {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  transform: translate(-50%);
+  padding: 5px 25px;
+  max-width: 128px;
+}
+
+.accomodation_item .hotel_img:hover img {
+  -webkit-transform: scale(1.19);
+  -ms-transform: scale(1.19);
+  transform: scale(1.19);
+}
+
+.accomodation_item h5 {
+  font-size: 24px;
+  line-height: 28px;
+  color: #52c5fd;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.accomodation_item h5 small {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.sec_h4 {
+  font-size: 18px;
+  line-height: 38px;
+  font-weight: 600;
+  color: #222222;
+  margin-bottom: 0px;
+}
+
+.accomodation_two {
+  margin-bottom: -40px;
+}
+
+.accomodation_two .accomodation_item {
+  margin-bottom: 45px;
+}
+
+
+
+/* Latest News Area css
+============================================================================================ */
+.l_news_item {
+  -webkit-transition: all 400ms linear 0s;
+  -o-transition: all 400ms linear 0s;
+  transition: all 400ms linear 0s;
+}
+
+.l_news_item .l_news_img {
+  overflow: hidden;
+}
+
+.l_news_item .l_news_img a {
+  display: block;
+}
+
+.l_news_item .l_news_img img {
+  -webkit-transition: all 400ms linear 0s;
+  -o-transition: all 400ms linear 0s;
+  transition: all 400ms linear 0s;
+}
+
+.l_news_item .l_news_img img:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.l_news_item .l_news_content {
+  border: 3px solid #ebebeb;
+  border-top: 0px;
+  padding: 30px 35px;
+}
+
+.l_news_item .l_news_content h4 {
+  font-size: 18px;
+  color: #232d37;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  -webkit-transition: all 400ms linear 0s;
+  -o-transition: all 400ms linear 0s;
+  transition: all 400ms linear 0s;
+}
+
+.l_news_item .l_news_content h4:hover {
+  color: #2bc0a4;
+}
+
+.l_news_item .l_news_content p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #51545f;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  padding: 15px 0px 10px 0px;
+}
+
+.l_news_item:hover {
+  -webkit-box-shadow: 0px 25px 49px 0px rgba(58, 74, 88, 0.1);
+  box-shadow: 0px 25px 49px 0px rgba(58, 74, 88, 0.1);
+}
+.row{
+    padding-bottom: 50px;
+    padding-top: 5px;
+}
+.latest_news_area{
+    padding-top: 59px;
+    
+}
+
+.isi{
+    padding-top: 59px;
+   text-align: justify;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+
+/* Latest News Area css
+============================================================================================ */
+
+
+/*----------------------------*\
+	galery widget
+\*----------------------------*/
+
+.galery-widget ul {
+  margin: -2px -2px;
+}
+
+.galery-widget ul li {
+  display: inline-block;
+  width: 33.33%;
+  padding: 2px;
+  margin-right: -4px;
+}
+
+.galery-widget ul li a {
+  display: block;
+  overflow: hidden;
+}
+
+.galery-widget ul li a img {
+  width: 100%;
+  -webkit-transition: 1.6s -webkit-transform;
+  transition: 1.6s -webkit-transform;
+  transition: 1.6s transform;
+  transition: 1.6s transform, 1.6s -webkit-transform;
+}
+
+.galery-widget ul li a:hover img {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+
+
+
+/*----------------------------*\
+	our dedsyti
+\*----------------------------*/
+
+
+.unit-1 img:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.unit-1  img {
+  -webkit-transition: all 400ms linear 0s;
+  -o-transition: all 400ms linear 0s;
+  transition: all 400ms linear 0s;
+}
+.col-md-6 {
+    padding-top: 1px;
+}
+
+
+/*---------------galery-------------*\
+\*----------------------------------*/
+
+
+.footer {
+	background:black;
+	color:white;
+	padding-top: 35px;
+	min-height: 20px;
+	border-top: 4px solid white ;
+}
+
+
+.tulisan {
+    text-align: justify;
+}
+
+
+
+
